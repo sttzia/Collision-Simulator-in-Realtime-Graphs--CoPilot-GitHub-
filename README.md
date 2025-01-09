@@ -20,7 +20,7 @@ This project simulates collisions between balls in a 2D space using Pygame and P
 1. Clone the repository:
 
    ```sh
-   git clone https://github.com/sttzia/collision-simulator.git
+   git clone https://github.com/sttzia/Collision-Simulator-in-Realtime-Graphs--CoPilot-GitHub-
    cd collision-simulator
    ```
 
