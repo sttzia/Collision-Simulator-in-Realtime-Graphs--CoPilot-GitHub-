@@ -145,8 +145,8 @@ def run_pygame():
         elapsed_time = time.time() - start_time
         if elapsed_time > 0:
             avg_collisions_per_second = collision_count / elapsed_time
-            avg_collisions_per_minute = collision_count / (elapsed_time / 60)
-            avg_collisions_per_hour = collision_count / (elapsed_time / 3600)
+            avg_collisions_per_minute = collision_count / (elapsed_time * 60)
+            avg_collisions_per_hour = collision_count / (elapsed_time * 3600)
         else:
             avg_collisions_per_second = 0
             avg_collisions_per_minute = 0
